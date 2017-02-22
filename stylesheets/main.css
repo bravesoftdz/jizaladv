@@ -1,0 +1,89 @@
+
+@font-face{
+	font-family: 'IndianTypeFoundryDiodrumArabic';
+	src: url('../fonts/DIAB-ORIENT-LIGHT.woff');
+}
+
+*{
+	font-family: 'IndianTypeFoundryDiodrumArabic', serif;
+	padding: 0; margin: 0; font-weight: normal;
+}
+
+html{
+	direction: rtl;
+}
+
+html, body{
+	margin: 0; padding: 0;
+	height: 100%; width: 100%;
+}
+
+h1{
+	font-size: 18px;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+p{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+a{
+	color: #039b9d;
+}
+
+section{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.intro{
+	background-color: #2a333b;
+	/*background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/wood_1.png');*/
+}
+
+.intro h1{
+	color: #039b9d;
+}
+
+.intro img{
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.work{
+	/*background-color: #e1e1e1;*/
+	/*background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/small_steps.png');*/
+	background-color: #2cfafd;
+}
+
+.work h1, .client h1, .contact h1{
+	/*color: #666;*/
+	display: inline-block;
+	/*background-color: #333;*/
+	/*background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/dark_fish_skin.png');*/
+	padding: 4px; color: #039b9d;
+	padding-left: 12px; padding-right: 12px;
+	border-bottom: 6px solid #2cfafd;
+}
+
+/*.work img{
+	width: 120px;
+}*/
+
+.map{
+	height: 50%;
+	margin-bottom: 30px;
+}
